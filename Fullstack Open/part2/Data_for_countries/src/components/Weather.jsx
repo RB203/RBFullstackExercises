@@ -6,7 +6,6 @@ const Weather = ({info,temp,tempSet}) => {
     // todayDate = todayDate.toISOString()
     // baseUrl = baseUrl + todayDate + "/t_2m:C/" + info.capitalInfo.latlng[0] + "," + info.capitalInfo.latlng[1] + "/json"
 
-    // const token = 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2IjoxLCJ1c2VyIjoicG9udGlmaWNpYXVuaXZlcnNpZGFkY2F0bGljYWRlbHBlcl9idXJnb3NfcmFmYWVsIiwiaXNzIjoibG9naW4ubWV0ZW9tYXRpY3MuY29tIiwiZXhwIjoxNzE3OTI0NTUxLCJzdWIiOiJhY2Nlc3MifQ.NvVD58UYuy2oQ8pZ0hkrQLwx_brve-pqV8Jyi5bMpkpa8qAeZbEJFXBfjvbcPUXtwzLbSwh21-SGcrlC1ysQQA'
 
     // const config = {
     //     headers: {
