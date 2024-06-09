@@ -20,22 +20,7 @@ function App() {
         setButtonPressedList(countries.data.map(country => false))
       }
     )
-    // // const token = btoa(`${username}:${password}`)
-    // console.log(token)
 
-    // // Configuración de la cabecera de autorización
-    // const config = {
-    //   headers: {
-    //     'Authorization': `Bearer ${token}`
-    //   }
-    // }
-
-    // axios.get("https://api.meteomatics.com/2024-06-09T00:00:00Z/t_2m:C/52.520551,13.461804/json"
-    // ,config).then(
-    //   weather => {
-    //     console.log(weather.data)
-    //   }
-    // )
   },[])
 
   const getDataFromMeteomatics = (info) => {
